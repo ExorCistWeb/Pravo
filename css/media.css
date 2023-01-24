@@ -13,6 +13,10 @@
     .main_link a:first-child {
         margin-top: 20px;
     }
+
+    .content-columns{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 1280px) {
