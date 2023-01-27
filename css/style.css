@@ -1102,10 +1102,14 @@ footer {
 
 .content__block_orange-button {
     padding: 0;
+
+    background-color: transparent;
 }
 
 .content__block_orange-button div {
     padding: 20px;
+
+    background-color: white;
 }
 
 .content__block_orange-button button {
@@ -1114,4 +1118,9 @@ footer {
     border: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+#owner-page .body-button-next,
+#owner-page .body-button-prev {
+    max-width: 185px;
 }

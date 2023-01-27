@@ -354,12 +354,13 @@
         width: 98px;
     }
 
-    #owner-page, #buyer-page{
+    #owner-page,
+    #buyer-page {
         padding-top: 130px;
     }
 
     #owner-page {
-        display: none;        
+        display: none;
     }
 
     #buyer-page {
@@ -384,26 +385,28 @@
         width: 100%;
     }
 
-    .modal-dialog{
+    .modal-dialog {
         margin-left: auto;
     }
 
-    .modal-dialog{
+    .modal-dialog {
         padding-left: 10px;
         padding-right: 10px;
         margin-right: auto;
     }
-    
-    .modal-content{
+
+    .modal-content {
         height: 87%;
         width: 100%;
+
+        justify-content: space-between;
     }
 
-    .slider-head{
+    .slider-head {
         padding-bottom: 40px;
     }
 
-    .content__fixed-block_uncorrect{
+    .content__fixed-block_uncorrect {
         position: relative;
         top: 0;
         left: 50%;
@@ -411,7 +414,10 @@
 
         margin-bottom: 30px;
     }
-    
+
+    .content__block_error{
+        overflow: visible !important;
+    }
 }
 
 @media (max-width: 468px) {
@@ -458,8 +464,8 @@
         line-height: normal;
     }
 
-    .content__block p {
-        font-size: 10px;
+    .content__block p, .content__block p span, .content__block {
+        font-size: 10px !important;
     }
 
     .content__fixed-block,
@@ -471,25 +477,31 @@
         margin: 0;
     }
 
-    .head-button-next, .head-button-prev{
+    .head-button-next,
+    .head-button-prev {
         font-size: 7px;
     }
 
-    .body-button-next, .body-button-prev{
+    .body-button-next,
+    .body-button-prev {
         font-size: 8px;
     }
 
-    .swiper .content__block{
+    .swiper .content__block {
         max-height: 270px;
     }
 
-    .content__block li{
+    .content__block li {
         font-size: 10px !important;
     }
 
-    .content__fixed-block_uncorrect{
+    .content__fixed-block_uncorrect {
         font-size: 10px;
 
         width: 100%;
+    }
+
+    .content__fluid {
+        font-size: 10px;
     }
 }
