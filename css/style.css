@@ -10,7 +10,6 @@ body {
 
 a {
     text-decoration: none;
-
     cursor: pointer;
 }
 
@@ -102,11 +101,9 @@ header {
 
 .navbar-toggler {
     border: none;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     width: 30px;
     height: 30px;
     padding: 0;
@@ -119,7 +116,6 @@ header {
 .navbar-toggler span {
     width: 100%;
     height: 3px;
-
     background-color: black;
 }
 
@@ -198,9 +194,7 @@ header {
 
 .btn-close {
     opacity: 1 !important;
-
     padding: 0;
-
     width: 20px;
     height: 20px;
 }
@@ -221,7 +215,6 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
-
     position: relative;
 }
 
@@ -233,7 +226,6 @@ header {
     text-transform: uppercase;
     display: flex;
     align-items: center;
-
     position: relative;
 }
 
@@ -532,7 +524,6 @@ footer {
 
 .buyer-wrapper {
     display: flex;
-
     overflow-x: clip;
 }
 
@@ -541,11 +532,10 @@ footer {
 #buyer-page .content_page,
 #owner-page .content_page {
     transition: 0.5s all;
-
     opacity: 0;
-
     display: none;
 }
+
 
 /* #buyer-page {
     margin-left: -107.5%;
@@ -562,24 +552,19 @@ footer {
 #buyer-page.active,
 #buyer-page .content_page {
     margin-left: 0;
-
     height: 100%;
-
     opacity: 1;
-
     display: block;
 }
 
 #owner-page.active,
 #owner-page .content_page {
     margin-right: 0;
-
     height: 100%;
-
     opacity: 1;
-
     display: block;
 }
+
 
 /* #buyer-page.active, #owner-page.active{
     width: 100%;
@@ -594,7 +579,6 @@ footer {
     font-size: 48px;
     color: #66b4ab;
     text-transform: uppercase;
-
     margin-bottom: 120px;
 }
 
@@ -614,13 +598,11 @@ footer {
 .content__fixed-block_1,
 .content__fixed-block_2 {
     position: sticky;
-    top: 150px;
+    top: 165px;
     z-index: 11;
-
     width: 400px;
     height: fit-content;
     padding: 20px;
-
     background-color: #d9e1e0;
     border-radius: 20px;
     color: #66b4ab;
@@ -644,7 +626,6 @@ footer {
 .content__fixed-block_2 li {
     font-weight: 300;
     font-size: 24px;
-
     transition: 0.5s all;
 }
 
@@ -657,9 +638,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
-
     border-radius: 20px;
-
     position: relative;
 }
 
@@ -667,10 +646,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-
     padding: 20px;
     margin-bottom: 60px;
-
     background-color: white;
 }
 
@@ -685,16 +662,13 @@ footer {
 .content__block {
     background-color: white;
     border-radius: 20px;
-
     padding: 20px;
 }
 
 .content__block span {
     margin-bottom: 10px;
-
     font-weight: 700;
     font-size: 16px;
-
     display: block;
 }
 
@@ -703,7 +677,6 @@ footer {
 .content__link_inline-orange {
     color: #a4da5f;
     text-decoration: underline;
-
     display: block;
 }
 
@@ -715,6 +688,7 @@ footer {
 .content__link_inline-orange {
     color: #e5a061 !important;
 }
+
 
 /* .content__column:first-child .content__block {
     width: calc(100% - 60px);
@@ -730,7 +704,6 @@ footer {
 
 .content__block h4 {
     margin-bottom: 40px;
-
     color: #e5a061;
     font-weight: 500;
     font-size: 20px;
@@ -745,20 +718,17 @@ footer {
 .list__title {
     margin-left: -15px;
     margin-bottom: 0;
-
     font-weight: 400;
     font-size: 12px;
 }
 
 .buyer-wrapper .content__block h4 {
     margin-bottom: 20px;
-
     line-height: normal;
 }
 
 .buyer-wrapper .content__block span {
     margin-bottom: 5px;
-
     font-weight: 500;
     font-size: 16px;
 }
@@ -780,7 +750,6 @@ footer {
 .content__block p {
     font-size: 16px;
     color: #0f0f0f;
-
     margin: 0;
     margin-bottom: 20px;
 }
@@ -802,11 +771,11 @@ footer {
 .buyer-changer-container {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .buyer-changer-container p {
     margin: 0;
-
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -816,55 +785,46 @@ footer {
     height: 20px;
     padding: 0;
     margin: 0 5px;
-
     border: none;
     border-radius: 20px;
-
     transition: all 0.5s;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: #cecac6;
-
     cursor: pointer;
 }
 
 .buyer-changer::after {
     content: "";
-
     background-color: black;
     border-radius: 500px;
-
     height: 14px;
     width: 14px;
-
     transition: 0.5s all;
+}
+
+.content__block div {
+    border-radius: 20px;
 }
 
 .buyer::after {
     margin-right: 50%;
     margin-left: 0;
-
     background-color: #e5a061;
 }
 
 .owner::after {
     margin-left: 50%;
     margin-right: 0;
-
     background-color: #85bb40;
 }
 
 #buyer-para,
 #owner-para {
     transition: 0.5s all;
-
     overflow: hidden;
-
     width: 100%;
-
     color: #cecac6;
     font-weight: 400;
 }
@@ -881,13 +841,11 @@ footer {
 
 #owner-para.active {
     width: 155px;
-
     color: #85bb40;
 }
 
 #buyer-para.active {
     width: 140px;
-
     color: #e5a061;
 }
 
@@ -926,7 +884,6 @@ footer {
 
 .content__image {
     width: 100%;
-
     border-radius: 20px;
 }
 
@@ -938,7 +895,6 @@ footer {
     width: 100%;
     height: 400px;
     margin-bottom: 5px;
-
     background-color: #d9d9d9;
     border-radius: 20px;
 }
@@ -962,9 +918,7 @@ footer {
 .body-button-prev {
     border: none;
     background-color: transparent;
-
     padding: 0;
-
     position: relative;
 }
 
@@ -972,21 +926,18 @@ footer {
 .head-button-prev {
     color: #66b4ab;
     font-size: 12px;
-
     margin-bottom: 16px;
 }
 
 .head-button-next,
 .body-button-next {
     padding-right: 20px;
-
     text-align: right;
 }
 
 .head-button-prev,
 .body-button-prev {
     padding-left: 20px;
-
     text-align: left;
 }
 
@@ -994,7 +945,6 @@ footer {
 .body-button-prev {
     color: #e5a061;
     font-size: 14px;
-
     max-width: 165px;
 }
 
@@ -1003,20 +953,16 @@ footer {
 .body-button-next::after,
 .body-button-prev::after {
     content: "";
-
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
     width: 15px;
     height: 10px;
-
     background-size: cover;
 }
 
 .head-button-next::after {
     background-image: url("../img/arrow-right-blue-mobile.svg");
-
     right: 0;
 }
 
@@ -1031,30 +977,24 @@ footer {
 
 .head-button-prev::after {
     background-image: url("../img/arrow-left-blue-mobile.svg");
-
     left: 0;
 }
 
 .body-button-prev::after {
     left: 0;
-
     background-image: url("../img/arrow-left-orange-mobile.svg");
 }
 
 .body-button-next::after {
     right: 0;
-
     background-image: url("../img/arrow-right-orange-mobile.svg");
 }
 
 .content__block_error {
     background-color: #e8d7d8;
-
     padding: 20px 20px 20px 55px !important;
     min-height: 94px;
-
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1062,15 +1002,12 @@ footer {
 
 .content__block_error::before {
     content: "";
-
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 20px;
-
     background-image: url("../img/!.svg");
     background-size: cover;
-
     width: 15px;
     height: 76px;
 }
@@ -1085,14 +1022,12 @@ footer {
     position: absolute;
     bottom: 0;
     left: -460px;
-
     width: 400px !important;
 }
 
 .content__button_orange {
     width: 100%;
     padding: 10px;
-
     background-color: #e6dcd3;
     color: #e5a061;
     font-size: 18px;
@@ -1102,19 +1037,16 @@ footer {
 
 .content__block_orange-button {
     padding: 0;
-
     background-color: transparent;
 }
 
 .content__block_orange-button div {
     padding: 20px;
-
     background-color: white;
 }
 
 .content__block_orange-button button {
     width: 100%;
-
     border: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -1123,4 +1055,48 @@ footer {
 #owner-page .body-button-next,
 #owner-page .body-button-prev {
     max-width: 185px;
+}
+
+.thanks h2 {
+    color: #66B4AB;
+}
+
+.tahanks_content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px;
+    margin-top: 120px;
+    padding-bottom: 100px;
+}
+
+.tahanks_content .thanks_box {
+    width: 400px;
+}
+
+.tahanks_content .thanks_box h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+    /* or 104% */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FF5458;
+}
+
+.tahanks_content .thanks_box h4 {
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    color: #0F0F0F;
+    text-decoration: none;
+}
+
+.tahanks_content .thanks_box p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    color: #0F0F0F;
 }
