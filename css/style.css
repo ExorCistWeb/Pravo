@@ -1062,15 +1062,15 @@ footer {
 }
 
 .tahanks_content {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 60px;
+    flex-wrap: wrap;
+    display: flex;
     margin-top: 120px;
     padding-bottom: 100px;
 }
 
 .tahanks_content .thanks_box {
-    width: 400px;
+    width: 480px;
+    margin: 30px;
 }
 
 .tahanks_content .thanks_box h3 {
@@ -1099,4 +1099,82 @@ footer {
     line-height: 25px;
     /* or 125% */
     color: #0F0F0F;
+}
+
+.lang_active_tuv {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #FF535D;
+}
+
+.lang_active_tuv:hover {
+    color: #FF535D;
+}
+
+.doc_block {
+    margin-bottom: 20px;
+}
+
+.doc_block h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #0F0F0F;
+    margin-bottom: 10px;
+}
+
+.doc_block a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.doc_block a span {
+    margin-right: 5px;
+}
+
+.doc_block a:hover span {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+}
+
+.link_ru_doc,
+.link_ru_doc svg {
+    color: #66B4AB;
+    fill: #66B4AB;
+}
+
+.link_tuv_doc,
+.link_tuv_doc svg {
+    color: #FF535D;
+    fill: #FF535D;
+}
+
+.link_ru_doc svg {
+    margin-right: 10px;
+}
+
+.doc_info p {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    overflow-y: auto;
 }
