@@ -328,6 +328,11 @@
 }
 
 @media (max-width: 468px) {
+    .tahanks_content .thanks_box h3 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 35px;
+    }
     .navbar-toggler {
         width: 20px;
         height: 20px;
@@ -407,5 +412,15 @@
     }
     .modal-body p {
         font-size: 14px;
+    }
+    .tahanks_content .thanks_box {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 400px;
+    }
+    h2 {
+        font-size: 37px;
+        line-height: 44px;
     }
 }

@@ -893,14 +893,9 @@ footer {
 
 .content__image img {
     width: 100%;
-    height: 400px;
     margin-bottom: 5px;
     background-color: #d9d9d9;
     border-radius: 20px;
-}
-
-.content__image_small {
-    height: 220px;
 }
 
 .content__image_small img {
