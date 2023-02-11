@@ -1173,3 +1173,11 @@ footer {
 .modal-content {
     overflow-y: auto;
 }
+
+.error_ddos2 {
+    top: 250px;
+}
+
+.error_ddos {
+    bottom: 100px;
+}
