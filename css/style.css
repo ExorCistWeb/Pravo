@@ -306,7 +306,7 @@ footer {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .footer_bottom p {
@@ -1161,7 +1161,8 @@ footer {
     fill: #FF535D;
 }
 
-.link_ru_doc svg {
+.link_ru_doc svg,
+.link_tuv_doc svg {
     margin-right: 10px;
 }
 
